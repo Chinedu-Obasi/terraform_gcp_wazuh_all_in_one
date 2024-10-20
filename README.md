@@ -60,3 +60,9 @@ sudo systemctl start wazuh-agent
 
 ### Wazuh Security Events Dashboard
 ![Wazuh++SE+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_security_events.png)
+
+### Wazuh PCI DSS Dashboard
+![Wazuh+PCI+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_PCI_DSS_dashboard.png)
+
+### Wazuh NIST 800-53 Dashboard
+![Wazuh+NIST+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_NIST_800_53.png)
