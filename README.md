@@ -52,3 +52,5 @@ sudo systemctl daemon-reload
 sudo systemctl enable wazuh-agent
 sudo systemctl start wazuh-agent
 ```
+
+![Wazuh+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_dashboard.png)
