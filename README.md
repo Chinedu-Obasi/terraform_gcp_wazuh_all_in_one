@@ -1,6 +1,6 @@
 # Terraform+Wazuh+GCP all-in-one Installation
 
-All-in-one installation of the Wazuh SIEM [Indexer, Server and Dashboard in one server] and Wazuh agents on GCP with VM instances.
+All-in-one installation of the Wazuh SIEM version 4.7 [Indexer, Server and Dashboard in one server] and Wazuh agents on GCP with VM instances.
 
 ![Terraform + GCP + Wazuh](link_to_your_image_here)
 
@@ -44,4 +44,11 @@ terraform apply
 ├── Compute Engine -> VM Instances -> Wazuh-Server -> Serial Port 1 Console
 ├── Locate the line - INFO: You can access the web interface https://<wazuh-dashboard-ip>:443, and note the User and Password credentials.
 ```
-- Access the Wazuh Dashboard and deploy Wazuh agent on the instances [Follow the prompts and run the scripts on Wazuh agent instances]
+- Access the Wazuh Dashboard and deploy Wazuh agent on the instances [Follow the prompts and run the scripts in the Bash terminal with root privileges on Wazuh agent instances]
+
+```bash
+sudo wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.7.5-1_amd64.deb && sudo WAZUH_MANAGER='<Wazuh-Server-IP>' WAZUH_AGENT_NAME='<Wazuh-agent-name>' dpkg -i ./wazuh-agent_4.7.5-1_amd64.deb
+sudo systemctl daemon-reload
+sudo systemctl enable wazuh-agent
+sudo systemctl start wazuh-agent
+```
