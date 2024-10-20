@@ -2,7 +2,7 @@
 
 All-in-one installation of the Wazuh SIEM version 4.7 [Indexer, Server and Dashboard in one server] and Wazuh agents on GCP with VM instances.
 
-![Terraform + GCP + Wazuh](link_to_your_image_here)
+[Terraform + GCP + Wazuh](link_to_your_image_here)
 
 - Deploy a GCP project and assign the necessary roles and permissions.
 - Use the GCP credentials generated in the Terraform variable configuration file.
@@ -22,7 +22,7 @@ All-in-one installation of the Wazuh SIEM version 4.7 [Indexer, Server and Dashb
 ```
 
 ## Usage
-- ![Create your GCP project and set up Roles, APIs and Service Account](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/GCP%20Initial%20Setup.md)
+- ![Create your GCP project and set up Roles, APIs and Service Account](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/gcp_project_setup.md)
 
 - Clone the repository, change into working directory.
 
