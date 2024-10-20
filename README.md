@@ -16,3 +16,5 @@ All-in-one installation of the Wazuh SIEM [Indexer, Server and Dashboard in one 
 ├── configure-indexer.yml <- indexer installation process
 ├── configure-server.yml <- server installation process
 ├── configure-dashboard.yml <- dashboard installation commands
+
+## Structure
