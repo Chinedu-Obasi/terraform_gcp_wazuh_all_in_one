@@ -41,12 +41,15 @@ terraform apply
 - Retrieve Wazuh Server IP and Dashboard Credentials after start-up script installation from GCP Console [Wazuh Server should be ready in 10-15 minutes]
 
 ```bash
-├── Compute Engine -> VM Instances -> Wazuh-Server -> Serial Port 1 Console [you can refresh & monitor the deployment progress from here]
-├── Locate the line - INFO: You can access the web interface https://<wazuh-dashboard-ip>:443, and note the User and Password credentials.
+├── Compute Engine -> VM Instances -> Wazuh-Server -> SSH or Access the Server using any SSH client
+sudo -i   # Access the VM as a root user
+cd /      # Change directory to the root folder
+tar -O -xvf wazuh-install-files.tar wazuh-install-files/wazuh-passwords.txt   # Use the Admin user for the web user interface and Wazuh indexer to access the dashboard.
 ```
 - Access the Wazuh Dashboard and deploy Wazuh agent on the instances [Follow the prompts and run the scripts in the Bash terminal with root privileges on Wazuh agent instances]
 
 ```bash
+https:<wazuh-server-ip>  # If certificates are installed correctly, you should have access to the dashboard on port 443.
 sudo wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.7.5-1_amd64.deb && sudo WAZUH_MANAGER='<Wazuh-Server-IP>' WAZUH_AGENT_NAME='<Wazuh-agent-name>' dpkg -i ./wazuh-agent_4.7.5-1_amd64.deb
 sudo systemctl daemon-reload
 sudo systemctl enable wazuh-agent
