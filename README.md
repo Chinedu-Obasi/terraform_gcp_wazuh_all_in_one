@@ -4,6 +4,10 @@ All-in-one installation of the Wazuh SIEM [Indexer, Server and Dashboard in one 
 
 ![Terraform + GCP + Wazuh](link_to_your_image_here)
 
+- Deploy a GCP project and assign the necessary roles and permissions.
+- Use the GCP credentials generated in the Terraform configuration files.
+- By default the Terraform configuration deploys 1 (one) Ubuntu 22.04 LTS Wazuh server and 2 (two) Ubuntu 22.04 LTS Wazuh agents (You can customize the OS type and number of agents).
+
 ## Structure
 
 ```bash
