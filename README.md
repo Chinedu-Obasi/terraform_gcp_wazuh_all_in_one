@@ -19,4 +19,4 @@ All-in-one installation of the Wazuh SIEM [Indexer, Server and Dashboard in one 
 ```
 
 ## Usage
-![Create your GCP project and set up Roles, APIs and Service Account](link_to_your_image_here)
+![Create your GCP project and set up Roles, APIs and Service Account](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/GCP%20Initial%20Setup.md)
