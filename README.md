@@ -38,10 +38,10 @@ terraform init
 terraform plan
 terraform apply
 ```
-- Retrieve Wazuh Server IP and Dashboard Credentials after start-up script installation from GCP Console [Wazuh Server should be ready in 4-6 minutes]
+- Retrieve Wazuh Server IP and Dashboard Credentials after start-up script installation from GCP Console [Wazuh Server should be ready in 6-10 minutes]
 
 ```bash
-├── Compute Engine -> VM Instances -> Wazuh-Server -> Serial Port 1 Console
+├── Compute Engine -> VM Instances -> Wazuh-Server -> Serial Port 1 Console [you can refresh & monitor the deployment progress from here]
 ├── Locate the line - INFO: You can access the web interface https://<wazuh-dashboard-ip>:443, and note the User and Password credentials.
 ```
 - Access the Wazuh Dashboard and deploy Wazuh agent on the instances [Follow the prompts and run the scripts in the Bash terminal with root privileges on Wazuh agent instances]
