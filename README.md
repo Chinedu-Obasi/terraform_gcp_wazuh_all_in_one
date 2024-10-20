@@ -53,10 +53,10 @@ sudo systemctl enable wazuh-agent
 sudo systemctl start wazuh-agent
 ```
 ### Wazuh Home Dashboard
-[Wazuh+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_dashboard.png)
+![Wazuh+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_dashboard.png)
 
 ### Wazuh MITRE ATTACK Dashboard
-[Wazuh+MITRE+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_MITRE_Attack.png)
+![Wazuh+MITRE+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_MITRE_Attack.png)
 
 ### Wazuh Security Events Dashboard
-[Wazuh++SE+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_security_events.png)
+![Wazuh++SE+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_security_events.png)
