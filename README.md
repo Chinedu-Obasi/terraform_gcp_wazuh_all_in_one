@@ -2,7 +2,7 @@
 
 All-in-one installation of the Wazuh SIEM [Indexer, Server and Dashboard in one server] and Wazuh agents on GCP with VM instances.
 
-![Terraform + AWS + Wazuh](link_to_your_image_here)
+![Terraform + GCP + Wazuh](link_to_your_image_here)
 
 ## Structure
 
