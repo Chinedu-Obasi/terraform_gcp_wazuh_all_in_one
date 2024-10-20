@@ -12,6 +12,7 @@ All-in-one installation of the Wazuh Server [Indexer, Server and Dashboard in on
 ├── 2-key_resources.tf <- .pem and .pem.pub generation
 ├── 3-security_group.tf <- security groups
 
+## 
 ```bash
 ├── configure-indexer.yml <- indexer installation process
 ├── configure-server.yml <- server installation process
