@@ -13,7 +13,6 @@ All-in-one installation of the Wazuh Server [Indexer, Server and Dashboard in on
 ├── 3-security_group.tf <- security groups
 
 
-├── 0-providers.tf <- AWS config
-├── 1-ami.tf <- AMI Base
-├── 2-key_resources.tf <- .pem and .pem.pub generation
-├── 3-security_group.tf <- security groups
+├── configure-indexer.yml <- indexer installation process
+├── configure-server.yml <- server installation process
+├── configure-dashboard.yml <- dashboard installation commands
