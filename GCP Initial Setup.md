@@ -1,12 +1,12 @@
 ﻿### **Step 1: Create a New Google Cloud Project**
 1. **Go to the GCP Console:**
-   1. Navigate to the Google Cloud Console.
-1. **Select or Create a New Project:**
+   - Navigate to the Google Cloud Console.
+2. **Select or Create a New Project:**
    1. In the top-left corner, click on the project selector drop-down.
    1. Click on **New Project**.
    1. Give your project a name (e.g., wazuh-deployment) and select your **Billing Account** (if you already have one).
    1. Optionally, choose a location for the project, then click **Create**.
-1. **Enable Billing for the Project:**
+3. **Enable Billing for the Project:**
    1. After the project is created, navigate to the Billing Page to ensure that billing is enabled for the project.
    1. If prompted, choose the **Free Tier** option, if available.
 
@@ -30,7 +30,6 @@
    1. Click **+ CREATE SERVICE ACCOUNT**.
    1. Give the service account a name (e.g., terraform-sa) and an optional description.
    1. Click **Create and Continue**.
-
 
 
 1. **Grant Permissions to the Service Account:**
@@ -59,7 +58,5 @@
 Now that you have the service account JSON key, you can configure Terraform to use it:
 
 1. **Move the JSON Key File:**
-   1. Place the downloaded JSON key file in a secure directory, for example:
-
-/path/to/your/credentials.json
+   1. Place the downloaded JSON key file in a secure directory, for example: /path/to/your/credentials.json
 
