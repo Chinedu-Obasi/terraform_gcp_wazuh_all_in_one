@@ -16,5 +16,7 @@ All-in-one installation of the Wazuh SIEM [Indexer, Server and Dashboard in one 
 ├── configure-indexer.yml <- indexer installation process
 ├── configure-server.yml <- server installation process
 ├── configure-dashboard.yml <- dashboard installation commands
+```
 
-## Structure
+## Usage
+![Create your GCP project and set up Roles, APIs and Service Account](link_to_your_image_here)
