@@ -31,7 +31,7 @@ git clone https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one.git
 cd terraform_gcp_wazuh_all_in_one
 ```
 - Edit the following variables in terraform.tfvars file with the GCP credentials: project_id, credentials_file, region, zone, service_account_email.
-- {Optional} Edit Server & agent instance types, OS image, Number of to be deployed agents.
+- {Optional} Edit Server & agent instance types, OS image, Number of to be deployed agents in variables.tf.
 
  ```bash
 terraform init
