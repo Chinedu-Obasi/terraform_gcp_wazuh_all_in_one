@@ -22,7 +22,7 @@ All-in-one installation of the Wazuh SIEM version 4.7 [Indexer, Server and Dashb
 ```
 
 ## Usage
-![Create your GCP project and set up Roles, APIs and Service Account](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/GCP%20Initial%20Setup.md)
+- ![Create your GCP project and set up Roles, APIs and Service Account](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/GCP%20Initial%20Setup.md)
 
 - Clone the repository, change into working directory.
 
