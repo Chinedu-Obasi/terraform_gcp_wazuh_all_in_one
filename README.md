@@ -2,7 +2,7 @@
 
 All-in-one installation of the Wazuh SIEM version [Indexer, Server and Dashboard in one server] and Wazuh agents on GCP with VM instances.
 
-![Terraform + GCP + Wazuh](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/Terraform%2BGCP%2BWazuh.png)
+![Terraform + GCP + Wazuh](https://github.com/user-attachments/assets/03fdeb9d-2f49-46ac-a2a6-fe653a41d7d1)
 
 - Deploy a GCP project and assign the necessary roles and permissions.
 - Use the GCP credentials generated in the Terraform variable configuration file.
@@ -59,16 +59,16 @@ sudo systemctl enable wazuh-agent
 sudo systemctl start wazuh-agent
 ```
 ### Wazuh Modules Dashboard
-![Wazuh+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_dashboard.png)
+![Wazuh+Dashboard](https://github.com/user-attachments/assets/b3c4ab3d-78b6-4d5c-903c-9b5fcf882bef)
 
 ### Wazuh MITRE ATTACK Dashboard
-![Wazuh+MITRE+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_MITRE_Attack.png)
+![Wazuh+MITRE+Dashboard](https://github.com/user-attachments/assets/4b1a046c-3ce7-4cd3-a423-354e308093e3)
 
 ### Wazuh Security Events Dashboard
-![Wazuh++SE+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_security_events.png)
+![Wazuh++SE+Dashboard](https://github.com/user-attachments/assets/93e7d6f4-ed44-435e-8559-85f283406e85)
 
 ### Wazuh PCI DSS Dashboard
-![Wazuh+PCI+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_PCI_DSS_dashboard.png)
+![Wazuh+PCI+Dashboard](https://github.com/user-attachments/assets/baec6d9b-b437-4921-ab9a-626b4b54cae9)
 
 ### Wazuh NIST 800-53 Dashboard
-![Wazuh+NIST+Dashboard](https://github.com/Chinedu-Obasi/terraform_gcp_wazuh_all_in_one/blob/main/wazuh_NIST_800_53.png)
+![Wazuh+NIST+Dashboard](https://github.com/user-attachments/assets/fc61f56b-bd98-467c-ba9f-5bef13d6d772)
